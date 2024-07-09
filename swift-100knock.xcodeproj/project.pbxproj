@@ -14,6 +14,7 @@
 		E367DABC2C3D1D4500CC332C /* swift_100knockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E367DABB2C3D1D4500CC332C /* swift_100knockTests.swift */; };
 		E367DAC62C3D1D4500CC332C /* swift_100knockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E367DAC52C3D1D4500CC332C /* swift_100knockUITests.swift */; };
 		E367DAC82C3D1D4500CC332C /* swift_100knockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E367DAC72C3D1D4500CC332C /* swift_100knockUITestsLaunchTests.swift */; };
+		E367DAD52C3D6BC200CC332C /* View001.swift in Sources */ = {isa = PBXBuildFile; fileRef = E367DAD42C3D6BC200CC332C /* View001.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E367DAC12C3D1D4500CC332C /* swift-100knockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-100knockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E367DAC52C3D1D4500CC332C /* swift_100knockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_100knockUITests.swift; sourceTree = "<group>"; };
 		E367DAC72C3D1D4500CC332C /* swift_100knockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_100knockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E367DAD42C3D6BC200CC332C /* View001.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View001.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		E367DAA92C3D1D4300CC332C /* swift-100knock */ = {
 			isa = PBXGroup;
 			children = (
+				E367DAD62C3D6BC900CC332C /* Views */,
 				E367DAAA2C3D1D4300CC332C /* swift_100knockApp.swift */,
 				E367DAAC2C3D1D4300CC332C /* ContentView.swift */,
 				E367DAAE2C3D1D4500CC332C /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				E367DAC72C3D1D4500CC332C /* swift_100knockUITestsLaunchTests.swift */,
 			);
 			path = "swift-100knockUITests";
+			sourceTree = "<group>";
+		};
+		E367DAD62C3D6BC900CC332C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E367DAD42C3D6BC200CC332C /* View001.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E367DAD52C3D6BC200CC332C /* View001.swift in Sources */,
 				E367DAAD2C3D1D4300CC332C /* ContentView.swift in Sources */,
 				E367DAAB2C3D1D4300CC332C /* swift_100knockApp.swift in Sources */,
 			);

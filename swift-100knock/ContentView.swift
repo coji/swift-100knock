@@ -9,13 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            List {
+                NavigationLink(
+                    "001 画像をリサイズして表示（fit）",
+                    destination: {
+                        View001()
+                    }
+                )
+            }
+            .navigationTitle("SwiftUI 100本ノック")
         }
-        .padding()
     }
 }
 
