@@ -12,11 +12,24 @@ struct ContentView: View {
         NavigationView {
             List {
                 NavigationLink(
-                    "001 画像をリサイズして表示（fit）",
+                    "001 画像をリサイズして表示(fit)",
                     destination: {
                         View001()
                     }
                 )
+                NavigationLink(
+                    "002 画像をリサイズして表示(fill)",
+                    destination: {
+                        View002()
+                    }
+                )
+                NavigationLink(
+                    "003 画像を丸く切り取り、枠をつける",
+                    destination: {
+                        View003()
+                    }
+                )
+
             }
             .navigationTitle("SwiftUI 100本ノック")
         }
