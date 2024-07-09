@@ -14,9 +14,16 @@ struct View003: View {
             .scaledToFill()
             .frame(width: 150, height: 150)
             .cornerRadius(75)
-            .overlay(
-                RoundedRectangle(cornerRadius: 75).stroke(Color.black, lineWidth: 4)
-            )
+            .overlay {
+                RoundedRectangle(cornerRadius: 75)
+                    .stroke(Color.red, lineWidth: 4)
+            }
+            .overlay(alignment: .bottom) {
+                Text("Mona Lisa")
+                    .foregroundStyle(Color.red)
+                    .padding()
+                    .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+            }
     }
 }
 
