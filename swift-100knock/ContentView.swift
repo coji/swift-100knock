@@ -29,7 +29,12 @@ struct ContentView: View {
                         View003()
                     }
                 )
-
+                NavigationLink(
+                    "004 画像を等間隔で横に並べる",
+                    destination: {
+                        View004()
+                    }
+                )
             }
             .navigationTitle("SwiftUI 100本ノック")
         }
