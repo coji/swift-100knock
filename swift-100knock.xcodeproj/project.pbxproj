@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E32347252C3ECE69002CFB02 /* View005.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32347242C3ECE69002CFB02 /* View005.swift */; };
 		E367DAAB2C3D1D4300CC332C /* swift_100knockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E367DAAA2C3D1D4300CC332C /* swift_100knockApp.swift */; };
 		E367DAAD2C3D1D4300CC332C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E367DAAC2C3D1D4300CC332C /* ContentView.swift */; };
 		E367DAAF2C3D1D4500CC332C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E367DAAE2C3D1D4500CC332C /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E32347242C3ECE69002CFB02 /* View005.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View005.swift; sourceTree = "<group>"; };
 		E367DAA72C3D1D4300CC332C /* swift-100knock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-100knock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E367DAAA2C3D1D4300CC332C /* swift_100knockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_100knockApp.swift; sourceTree = "<group>"; };
 		E367DAAC2C3D1D4300CC332C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				E367DAD72C3D705F00CC332C /* View002.swift */,
 				E367DAD92C3D73B200CC332C /* View003.swift */,
 				E393F5E82C3EC2BD0054F014 /* View004.swift */,
+				E32347242C3ECE69002CFB02 /* View005.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			files = (
 				E367DAD52C3D6BC200CC332C /* View001.swift in Sources */,
 				E393F5E92C3EC2BD0054F014 /* View004.swift in Sources */,
+				E32347252C3ECE69002CFB02 /* View005.swift in Sources */,
 				E367DADA2C3D73B200CC332C /* View003.swift in Sources */,
 				E367DAD82C3D705F00CC332C /* View002.swift in Sources */,
 				E367DAAD2C3D1D4300CC332C /* ContentView.swift in Sources */,

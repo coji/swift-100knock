@@ -16,7 +16,6 @@ struct View001: View {
                 .frame(width: 150, height: 200)
                 .background(Color.red)
 
-
             Text("Mona Lisa")
         }
     }

@@ -35,6 +35,11 @@ struct ContentView: View {
                         View004()
                     }
                 )
+                NavigationLink("005 NavigationView でタイトル",
+                    destination: {
+                        View005()
+                    }
+                )
             }
             .navigationTitle("SwiftUI 100本ノック")
         }
