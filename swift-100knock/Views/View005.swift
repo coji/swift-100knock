@@ -15,9 +15,10 @@ struct View005: View {
                     .resizable()
                     .scaledToFit()
                     .cornerRadius(10)
-                    .frame(width: 100, height: 150)
+                    .frame(width: 80, height: 120)
                 Text("Mona Lisa")
             }
+            .navigationBarTitleDisplayMode(.large)
             .navigationTitle("Mona Lisa")
         }
     }

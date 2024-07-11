@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
                 NavigationLink(
                     "001 画像をリサイズして表示(fit)",
@@ -35,7 +35,8 @@ struct ContentView: View {
                         View004()
                     }
                 )
-                NavigationLink("005 NavigationView でタイトル",
+                NavigationLink(
+                    "005 NavigationView でタイトル",
                     destination: {
                         View005()
                     }
