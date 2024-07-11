@@ -19,6 +19,7 @@
 		E367DAD52C3D6BC200CC332C /* View001.swift in Sources */ = {isa = PBXBuildFile; fileRef = E367DAD42C3D6BC200CC332C /* View001.swift */; };
 		E367DAD82C3D705F00CC332C /* View002.swift in Sources */ = {isa = PBXBuildFile; fileRef = E367DAD72C3D705F00CC332C /* View002.swift */; };
 		E367DADA2C3D73B200CC332C /* View003.swift in Sources */ = {isa = PBXBuildFile; fileRef = E367DAD92C3D73B200CC332C /* View003.swift */; };
+		E37BEACA2C401C2E00BFB8EA /* View007.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37BEAC92C401C2E00BFB8EA /* View007.swift */; };
 		E393F5E92C3EC2BD0054F014 /* View004.swift in Sources */ = {isa = PBXBuildFile; fileRef = E393F5E82C3EC2BD0054F014 /* View004.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		E367DAD42C3D6BC200CC332C /* View001.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View001.swift; sourceTree = "<group>"; };
 		E367DAD72C3D705F00CC332C /* View002.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View002.swift; sourceTree = "<group>"; };
 		E367DAD92C3D73B200CC332C /* View003.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View003.swift; sourceTree = "<group>"; };
+		E37BEAC92C401C2E00BFB8EA /* View007.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View007.swift; sourceTree = "<group>"; };
 		E393F5E82C3EC2BD0054F014 /* View004.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View004.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +151,7 @@
 				E393F5E82C3EC2BD0054F014 /* View004.swift */,
 				E32347242C3ECE69002CFB02 /* View005.swift */,
 				E32347262C3FA237002CFB02 /* View006.swift */,
+				E37BEAC92C401C2E00BFB8EA /* View007.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E367DAD52C3D6BC200CC332C /* View001.swift in Sources */,
+				E37BEACA2C401C2E00BFB8EA /* View007.swift in Sources */,
 				E32347272C3FA237002CFB02 /* View006.swift in Sources */,
 				E393F5E92C3EC2BD0054F014 /* View004.swift in Sources */,
 				E32347252C3ECE69002CFB02 /* View005.swift in Sources */,
