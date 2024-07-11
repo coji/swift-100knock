@@ -8,40 +8,40 @@
 import SwiftUI
 
 struct View004: View {
-    var body: some View {
-        HStack {
-            Image("Monalisa")
-                .resizable()
-                .scaledToFit()
-                .cornerRadius(5)
-                .frame(width: 80, height: 120)
-                .clipped()
-            Spacer()
-            Image("Monalisa")
-                .resizable()
-                .scaledToFit()
-                .cornerRadius(5)
-                .frame(width: 80, height: 120)
-                .clipped()
-            Spacer()
-            Image("Monalisa")
-                .resizable()
-                .scaledToFit()
-                .cornerRadius(5)
-                .frame(width: 80, height: 120)
-                .clipped()
-            Spacer()
-            Image("Monalisa")
-                .resizable()
-                .scaledToFit()
-                .cornerRadius(5)
-                .frame(width: 80, height: 120)
-                .clipped()
-        }
-        .padding(16)
+  var body: some View {
+    HStack {
+      Image("Monalisa")
+        .resizable()
+        .scaledToFit()
+        .cornerRadius(5)
+        .frame(width: 80, height: 120)
+        .clipped()
+      Spacer()
+      Image("Monalisa")
+        .resizable()
+        .scaledToFit()
+        .cornerRadius(5)
+        .frame(width: 80, height: 120)
+        .clipped()
+      Spacer()
+      Image("Monalisa")
+        .resizable()
+        .scaledToFit()
+        .cornerRadius(5)
+        .frame(width: 80, height: 120)
+        .clipped()
+      Spacer()
+      Image("Monalisa")
+        .resizable()
+        .scaledToFit()
+        .cornerRadius(5)
+        .frame(width: 80, height: 120)
+        .clipped()
     }
+    .padding(16)
+  }
 }
 
 #Preview {
-    View004()
+  View004()
 }

@@ -8,19 +8,19 @@
 import SwiftUI
 
 struct View001: View {
-    var body: some View {
-        VStack {
-            Image("Monalisa")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 150, height: 200)
-                .background(Color.red)
-
-            Text("Mona Lisa")
-        }
+  var body: some View {
+    VStack {
+      Image("Monalisa")
+        .resizable()
+        .aspectRatio(contentMode: .fit)
+        .frame(width: 150, height: 200)
+        .background(Color.red)
+      
+      Text("Mona Lisa")
     }
+  }
 }
 
 #Preview {
-    View001()
+  View001()
 }

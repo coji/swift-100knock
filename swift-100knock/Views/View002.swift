@@ -8,18 +8,18 @@
 import SwiftUI
 
 struct View002: View {
-    var body: some View {
-        VStack {
-            Image("Monalisa")
-                .resizable()
-                .scaledToFill()
-                .frame(width: 150, height: 200, alignment: .center)
-                .clipped()
-            Text("Mona Lisa")
-        }
+  var body: some View {
+    VStack {
+      Image("Monalisa")
+        .resizable()
+        .scaledToFill()
+        .frame(width: 150, height: 200, alignment: .center)
+        .clipped()
+      Text("Mona Lisa")
     }
+  }
 }
 
 #Preview {
-    View002()
+  View002()
 }
