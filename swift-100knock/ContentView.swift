@@ -64,6 +64,18 @@ struct ContentView: View {
               View006()
             }
           )
+          NavigationLink(
+            "007 TabView",
+            destination: {
+              View007()
+            }
+          )
+          NavigationLink(
+            "008 Buttonタップで文字を変える",
+            destination: {
+              View008()
+            }
+          )
         }
       }
     }
