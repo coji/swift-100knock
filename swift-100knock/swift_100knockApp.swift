@@ -4,14 +4,14 @@
 //
 //  Created by coji on 2024/07/09.
 //
-
+import Foundation
 import SwiftUI
 
 @main
 struct swift_100knockApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
     }
+  }
 }

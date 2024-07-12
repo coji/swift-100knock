@@ -88,6 +88,12 @@ struct ContentView: View {
               View010()
             }
           )
+          NavigationLink(
+            "011 ビューに値を渡す",
+            destination: {
+              View011()
+            }
+          )
         }
       }
     }
