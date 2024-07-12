@@ -7,8 +7,26 @@
 
 import SwiftUI
 
+struct NavigationItem<Destination: View> {
+  let title: String
+  let destination: Destination
+}
+
 struct ContentView: View {
   @State var path = NavigationPath()
+  let navigationItems: [NavigationItem<AnyView>] = [
+    NavigationItem(title: "001 画像をリサイズして表示(fit)", destination: AnyView(View001())),
+    NavigationItem(title: "002 画像をリサイズして表示(fill)", destination: AnyView(View002())),
+    NavigationItem(title: "003 画像を丸く切り取り", destination: AnyView(View003())),
+    NavigationItem(title: "004 画像を丸く切り取り枠をつける", destination: AnyView(View004())),
+    NavigationItem(title: "005 画像を等間隔で横に並べる", destination: AnyView(View005())),
+    NavigationItem(title: "006 NavigationView でタイトル", destination: AnyView(View006())),
+    NavigationItem(title: "007 Pickerで選択", destination: AnyView(View007())),
+    NavigationItem(title: "008 TabView", destination: AnyView(View008())),
+    NavigationItem(title: "009 Buttonタップで文字を変える", destination: AnyView(View009())),
+    NavigationItem(title: "010 Listをセクションごとに表示する", destination: AnyView(View010())),
+    NavigationItem(title: "011 ビューに値を渡す", destination: AnyView(View011())),
+  ]
 
   var body: some View {
     VStack {
@@ -27,72 +45,11 @@ struct ContentView: View {
               "[SwiftUI 100本ノック](https://qiita.com/takoikatakotako/items/7e5fbdf6ab7749b6865d?utm_content=buffer6b8c2&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) をやってみた結果です。"
             )
           })
-        List {
+
+        List(navigationItems, id: \.title) { item in
           NavigationLink(
-            "001 画像をリサイズして表示(fit)",
-            destination: {
-              View001()
-            }
-          )
-          NavigationLink(
-            "002 画像をリサイズして表示(fill)",
-            destination: {
-              View002()
-            }
-          )
-          NavigationLink(
-            "003 画像を丸く切り取り",
-            destination: {
-              View003()
-            }
-          )
-          NavigationLink(
-            "004 画像を丸く切り取り、枠をつける",
-            destination: {
-              View004()
-            }
-          )
-          NavigationLink(
-            "005 画像を等間隔で横に並べる",
-            destination: {
-              View005()
-            }
-          )
-          NavigationLink(
-            "006 NavigationView でタイトル",
-            destination: {
-              View006()
-            }
-          )
-          NavigationLink(
-            "007 Pickerで選択",
-            destination: {
-              View007()
-            }
-          )
-          NavigationLink(
-            "008 TabView",
-            destination: {
-              View008()
-            }
-          )
-          NavigationLink(
-            "009 Buttonタップで文字を変える",
-            destination: {
-              View009()
-            }
-          )
-          NavigationLink(
-            "010 Listを使ってセクションごとに表示する",
-            destination: {
-              View010()
-            }
-          )
-          NavigationLink(
-            "011 ビューに値を渡す",
-            destination: {
-              View011()
-            }
+            item.title,
+            destination: item.destination
           )
         }
       }
