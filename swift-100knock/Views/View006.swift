@@ -1,21 +1,25 @@
+//
+//  View005.swift
+//  swift-100knock
+//
+//  Created by coji on 2024/07/10.
+//
+
 import SwiftUI
 
 struct View006: View {
-  var fruits = ["Apple", "Banana", "Orange", "Pineapple", "Strawberry"]
-  @State private var selectedFruit = "Apple"
-
   var body: some View {
-    VStack {
-      Text("Select one!")
-      Picker("Fruits", selection: $selectedFruit) {
-        ForEach(fruits, id: \.self) { fruit in
-          Text(fruit)
-        }
+    NavigationStack {
+      VStack {
+        Image("Monalisa")
+          .resizable()
+          .scaledToFit()
+          .cornerRadius(10)
+          .frame(width: 80, height: 120)
+        Text("Mona Lisa")
       }
-      .pickerStyle(.wheel)
-      .onReceive([selectedFruit].publisher.first()) { (value) in
-        print("Selected: \(value)")
-      }
+      .navigationBarTitleDisplayMode(.large)
+      .navigationTitle("Mona Lisa")
     }
   }
 }

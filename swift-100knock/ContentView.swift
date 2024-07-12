@@ -41,39 +41,51 @@ struct ContentView: View {
             }
           )
           NavigationLink(
-            "003 画像を丸く切り取り、枠をつける",
+            "003 画像を丸く切り取り",
             destination: {
               View003()
             }
           )
           NavigationLink(
-            "004 画像を等間隔で横に並べる",
+            "004 画像を丸く切り取り、枠をつける",
             destination: {
               View004()
             }
           )
           NavigationLink(
-            "005 NavigationView でタイトル",
+            "005 画像を等間隔で横に並べる",
             destination: {
               View005()
             }
           )
           NavigationLink(
-            "006 Pickerで選択",
+            "006 NavigationView でタイトル",
             destination: {
               View006()
             }
           )
           NavigationLink(
-            "007 TabView",
+            "007 Pickerで選択",
             destination: {
               View007()
             }
           )
           NavigationLink(
-            "008 Buttonタップで文字を変える",
+            "008 TabView",
             destination: {
               View008()
+            }
+          )
+          NavigationLink(
+            "009 Buttonタップで文字を変える",
+            destination: {
+              View009()
+            }
+          )
+          NavigationLink(
+            "010 Listを使ってセクションごとに表示する",
+            destination: {
+              View010()
             }
           )
         }

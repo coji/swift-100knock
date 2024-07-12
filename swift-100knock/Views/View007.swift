@@ -1,32 +1,22 @@
-//
-//  View007.swift
-//  swift-100knock
-//
-//  Created by coji on 2024/07/11.
-//
-
 import SwiftUI
 
 struct View007: View {
+  var fruits = ["Apple", "Banana", "Orange", "Pineapple", "Strawberry"]
+  @State private var selectedFruit = "Apple"
+
   var body: some View {
-    TabView {
-      Text("Helo")
-        .tabItem {
-          Image(systemName: "star")
-          Text("Hello!")
+    VStack {
+      Text("Select one!")
+      Picker("Fruits", selection: $selectedFruit) {
+        ForEach(fruits, id: \.self) { fruit in
+          Text(fruit)
         }
-      Text("World")
-        .tabItem {
-          Image(systemName: "star.fill")
-          Text("World!")
-        }
-      Text("Swift")
-        .tabItem {
-          Image(systemName: "star.circle")
-          Text("Swift!")
-        }
+      }
+      .pickerStyle(.wheel)
+      .onReceive([selectedFruit].publisher.first()) { (value) in
+        print("Selected: \(value)")
+      }
     }
-    .font(.headline)
   }
 }
 

@@ -1,24 +1,32 @@
 //
-//  View008.swift
+//  View007.swift
 //  swift-100knock
 //
-//  Created by coji on 2024/07/12.
+//  Created by coji on 2024/07/11.
 //
 
 import SwiftUI
 
 struct View008: View {
-  @State private var text = "Hello"
-
   var body: some View {
-    VStack {
-      Text(text)
-      Button(
-        "Click Here",
-        action: {
-          text = "World"
-        })
+    TabView {
+      Text("Helo")
+        .tabItem {
+          Image(systemName: "star")
+          Text("Hello!")
+        }
+      Text("World")
+        .tabItem {
+          Image(systemName: "star.fill")
+          Text("World!")
+        }
+      Text("Swift")
+        .tabItem {
+          Image(systemName: "star.circle")
+          Text("Swift!")
+        }
     }
+    .font(.headline)
   }
 }
 

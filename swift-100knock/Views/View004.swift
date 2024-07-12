@@ -1,44 +1,29 @@
 //
-//  View004.swift
+//  View003.swift
 //  swift-100knock
 //
-//  Created by coji on 2024/07/10.
+//  Created by coji on 2024/07/09.
 //
 
 import SwiftUI
 
 struct View004: View {
   var body: some View {
-    HStack {
-      Image("Monalisa")
-        .resizable()
-        .scaledToFit()
-        .cornerRadius(5)
-        .frame(width: 80, height: 120)
-        .clipped()
-      Spacer()
-      Image("Monalisa")
-        .resizable()
-        .scaledToFit()
-        .cornerRadius(5)
-        .frame(width: 80, height: 120)
-        .clipped()
-      Spacer()
-      Image("Monalisa")
-        .resizable()
-        .scaledToFit()
-        .cornerRadius(5)
-        .frame(width: 80, height: 120)
-        .clipped()
-      Spacer()
-      Image("Monalisa")
-        .resizable()
-        .scaledToFit()
-        .cornerRadius(5)
-        .frame(width: 80, height: 120)
-        .clipped()
-    }
-    .padding(16)
+    Image("Monalisa")
+      .resizable()
+      .scaledToFill()
+      .frame(width: 150, height: 150)
+      .cornerRadius(75)
+      .overlay {
+        RoundedRectangle(cornerRadius: 75)
+          .stroke(Color.red, lineWidth: 4)
+      }
+      .overlay(alignment: .bottom) {
+        Text("Mona Lisa")
+          .foregroundStyle(Color.red)
+          .padding()
+          .shadow(radius: /*@START_MENU_TOKEN@*/ 10 /*@END_MENU_TOKEN@*/)
+      }
   }
 }
 
