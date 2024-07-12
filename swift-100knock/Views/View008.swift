@@ -10,20 +10,25 @@ import SwiftUI
 struct View008: View {
   var body: some View {
     TabView {
-      Text("Helo")
-        .tabItem {
-          Image(systemName: "star")
-          Text("Hello!")
-        }
-      Text("World")
+      VStack {
+        Image("Monalisa")
+          .resizable()
+          .scaledToFit()
+        Text("Mona Lisa")
+      }
+      .tabItem {
+        Image(systemName: "star")
+        Text("Mona Lisa")
+      }
+      Text("Hello")
         .tabItem {
           Image(systemName: "star.fill")
-          Text("World!")
+          Text("Hello")
         }
-      Text("Swift")
+      Text("World!")
         .tabItem {
           Image(systemName: "star.circle")
-          Text("Swift!")
+          Text("World!")
         }
     }
     .font(.headline)

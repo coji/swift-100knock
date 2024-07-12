@@ -22,7 +22,7 @@ struct ContentView: View {
     NavigationItem(title: "005 画像を等間隔で横に並べる", destination: AnyView(View005())),
     NavigationItem(title: "006 NavigationView でタイトル", destination: AnyView(View006())),
     NavigationItem(title: "007 Pickerで選択", destination: AnyView(View007())),
-    NavigationItem(title: "008 TabView", destination: AnyView(View008())),
+    NavigationItem(title: "008 TabViewを使って画面を切り替える", destination: AnyView(View008())),
     NavigationItem(title: "009 Buttonタップで文字を変える", destination: AnyView(View009())),
     NavigationItem(title: "010 Listをセクションごとに表示する", destination: AnyView(View010())),
     NavigationItem(title: "011 ビューに値を渡す", destination: AnyView(View011())),
