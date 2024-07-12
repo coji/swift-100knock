@@ -13,8 +13,8 @@ struct View011: View {
   var body: some View {
     NavigationStack {
       List(fruites, id: \.self) { fruit in
-        NavigationLink(destination: SecondView(fruit: fruit)) {
-          Text(fruit)
+        NavigationLink(fruit) {
+          SecondView(fruit: fruit)
         }
       }
       .navigationTitle("詳細ビューに値を渡す")
