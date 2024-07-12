@@ -30,6 +30,7 @@ struct ContentView: View {
     NavigationItem(title: "013 Listスタイルを plain にする", destination: AnyView(View013())),
     NavigationItem(title: "014 Alertを表示する", destination: AnyView(View014())),
     NavigationItem(title: "015 Alertを出し分ける", destination: AnyView(View015())),
+    NavigationItem(title: "016 ボタン内の画像やテキストの色を変えない", destination: AnyView(View016()))
   ]
 
   var body: some View {
