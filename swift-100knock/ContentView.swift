@@ -29,6 +29,7 @@ struct ContentView: View {
     NavigationItem(title: "012 NavigationView の戻るボタンを非表示にする", destination: AnyView(View012())),
     NavigationItem(title: "013 Listスタイルを plain にする", destination: AnyView(View013())),
     NavigationItem(title: "014 Alertを表示する", destination: AnyView(View014())),
+    NavigationItem(title: "015 Alertを出し分ける", destination: AnyView(View015())),
   ]
 
   var body: some View {
