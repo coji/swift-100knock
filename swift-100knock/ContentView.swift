@@ -26,7 +26,8 @@ struct ContentView: View {
     NavigationItem(title: "009 Buttonタップで文字を変える", destination: AnyView(View009())),
     NavigationItem(title: "010 Listをセクションごとに表示する", destination: AnyView(View010())),
     NavigationItem(title: "011 ビューに値を渡す", destination: AnyView(View011())),
-    NavigationItem(title: "012 NavigationView の戻るボタンを非表示にする", destination: AnyView(View012()))
+    NavigationItem(title: "012 NavigationView の戻るボタンを非表示にする", destination: AnyView(View012())),
+    NavigationItem(title: "013 Listスタイルを plain にする", destination: AnyView(View013())),
   ]
 
   var body: some View {
