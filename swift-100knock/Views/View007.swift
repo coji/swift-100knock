@@ -26,6 +26,7 @@ struct View007: View {
           Text("Swift!")
         }
     }
+    .font(.headline)
   }
 }
 
