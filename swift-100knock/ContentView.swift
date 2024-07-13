@@ -32,6 +32,7 @@ struct ContentView: View {
     NavigationItem(title: "015 Alertを出し分ける", destination: AnyView(View015())),
     NavigationItem(title: "016 ボタン内の画像やテキストの色を変えない", destination: AnyView(View016())),
     NavigationItem(title: "017 数値入力でシート、それ以外でアラートを表示", destination: AnyView(View017())),
+    NavigationItem(title: "018 Buttonからプッシュ遷移をする", destination: AnyView(View018())),
   ]
 
   var body: some View {

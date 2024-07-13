@@ -10,6 +10,7 @@
 		E32347252C3ECE69002CFB02 /* View006.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32347242C3ECE69002CFB02 /* View006.swift */; };
 		E32347272C3FA237002CFB02 /* View007.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32347262C3FA237002CFB02 /* View007.swift */; };
 		E32CB3DC2C423B4C009099ED /* View017.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32CB3DB2C423B4C009099ED /* View017.swift */; };
+		E32CB3E02C423F02009099ED /* View018.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32CB3DF2C423F02009099ED /* View018.swift */; };
 		E350A3122C415FED00F034C6 /* View012.swift in Sources */ = {isa = PBXBuildFile; fileRef = E350A3112C415FED00F034C6 /* View012.swift */; };
 		E350A3142C4161DF00F034C6 /* View013.swift in Sources */ = {isa = PBXBuildFile; fileRef = E350A3132C4161DF00F034C6 /* View013.swift */; };
 		E350A3162C41639900F034C6 /* View014.swift in Sources */ = {isa = PBXBuildFile; fileRef = E350A3152C41639900F034C6 /* View014.swift */; };
@@ -54,6 +55,7 @@
 		E32347242C3ECE69002CFB02 /* View006.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View006.swift; sourceTree = "<group>"; };
 		E32347262C3FA237002CFB02 /* View007.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View007.swift; sourceTree = "<group>"; };
 		E32CB3DB2C423B4C009099ED /* View017.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View017.swift; sourceTree = "<group>"; };
+		E32CB3DF2C423F02009099ED /* View018.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View018.swift; sourceTree = "<group>"; };
 		E350A3112C415FED00F034C6 /* View012.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View012.swift; sourceTree = "<group>"; };
 		E350A3132C4161DF00F034C6 /* View013.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View013.swift; sourceTree = "<group>"; };
 		E350A3152C41639900F034C6 /* View014.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View014.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				E350A3172C416A2400F034C6 /* View015.swift */,
 				E350A3192C4171EB00F034C6 /* View016.swift */,
 				E32CB3DB2C423B4C009099ED /* View017.swift */,
+				E32CB3DF2C423F02009099ED /* View018.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E32CB3E02C423F02009099ED /* View018.swift in Sources */,
 				E350A3142C4161DF00F034C6 /* View013.swift in Sources */,
 				E367DAD52C3D6BC200CC332C /* View001.swift in Sources */,
 				E3F595F62C40BC08007AF83B /* View009.swift in Sources */,
