@@ -29,7 +29,7 @@ struct View021: View {
     }
   }
 }
-struct CardView<Content>: View where Content: View {
+private struct CardView<Content>: View where Content: View {
   let color: Color
   let radius: CGFloat
   let content: () -> Content
