@@ -38,6 +38,7 @@ struct ContentView: View {
     NavigationItem(title: "021 ViewBuilder でカードを表示する", destination: AnyView(View021())),
     NavigationItem(title: "022 ViewModifier でカードを表示する", destination: AnyView(View022())),
     NavigationItem(title: "023 リストを編集する", destination: AnyView(View023())),
+    NavigationItem(title: "024 リストをクリックしたらアラートを出す", destination: AnyView(View024())),
   ]
 
   var body: some View {
