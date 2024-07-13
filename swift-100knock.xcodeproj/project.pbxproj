@@ -38,6 +38,7 @@
 		E3FC09FE2C429F7B005AD217 /* View022.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FC09FD2C429F7B005AD217 /* View022.swift */; };
 		E3FC0A002C42A216005AD217 /* View023.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FC09FF2C42A216005AD217 /* View023.swift */; };
 		E3FC0A022C42A41B005AD217 /* View024.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FC0A012C42A41B005AD217 /* View024.swift */; };
+		E3FC0A042C42AD6B005AD217 /* View025.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FC0A032C42AD6B005AD217 /* View025.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,7 @@
 		E3FC09FD2C429F7B005AD217 /* View022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View022.swift; sourceTree = "<group>"; };
 		E3FC09FF2C42A216005AD217 /* View023.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View023.swift; sourceTree = "<group>"; };
 		E3FC0A012C42A41B005AD217 /* View024.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View024.swift; sourceTree = "<group>"; };
+		E3FC0A032C42AD6B005AD217 /* View025.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View025.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 				E3FC09FD2C429F7B005AD217 /* View022.swift */,
 				E3FC09FF2C42A216005AD217 /* View023.swift */,
 				E3FC0A012C42A41B005AD217 /* View024.swift */,
+				E3FC0A032C42AD6B005AD217 /* View025.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				E350A3162C41639900F034C6 /* View014.swift in Sources */,
 				E367DAD82C3D705F00CC332C /* View002.swift in Sources */,
 				E32CB3DC2C423B4C009099ED /* View017.swift in Sources */,
+				E3FC0A042C42AD6B005AD217 /* View025.swift in Sources */,
 				E3FC09FC2C4296F2005AD217 /* View021.swift in Sources */,
 				E350A3122C415FED00F034C6 /* View012.swift in Sources */,
 				E3F595FC2C40C6BB007AF83B /* View011.swift in Sources */,
