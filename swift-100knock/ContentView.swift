@@ -42,6 +42,7 @@ struct ContentView: View {
     NavigationItem(title: "025 遷移先から遷移元の関数を呼び出す", destination: AnyView(View025())),
     NavigationItem(title: "027 複数列の Picker を作成する", destination: AnyView(View027())),
     NavigationItem(title: "028 Sheetを表示する", destination: AnyView(View028())),
+    NavigationItem(title: "029 全画面Sheetを表示する", destination: AnyView(View029())),
   ]
 
   var body: some View {
