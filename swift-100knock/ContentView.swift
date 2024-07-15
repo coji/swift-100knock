@@ -43,6 +43,7 @@ struct ContentView: View {
     NavigationItem(title: "027 複数列の Picker を作成する", destination: AnyView(View027())),
     NavigationItem(title: "028 Sheetを表示する", destination: AnyView(View028())),
     NavigationItem(title: "029 全画面Sheetを表示する", destination: AnyView(View029())),
+    NavigationItem(title: "030 NavigationBar を隠す", destination: AnyView(View030())),
   ]
 
   var body: some View {
