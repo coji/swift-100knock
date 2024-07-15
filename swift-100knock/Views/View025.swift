@@ -7,17 +7,13 @@
 
 import SwiftUI
 
-protocol MyProtocol {
-  func myFunc()
-}
-
-struct View025: View, MyProtocol {
+struct View025: View {
   @State var text = "Hello, World!"
   var body: some View {
     NavigationStack {
       Text(text)
       NavigationLink(
-        destination: SecondView(delegate: self)
+        destination: SecondView(callback: self.myFunc)
       ) {
         Text("Go to Second View")
       }
@@ -31,10 +27,10 @@ struct View025: View, MyProtocol {
 }
 
 private struct SecondView: View {
-  var delegate: MyProtocol
+  var callback: () -> Void
   var body: some View {
     NavigationStack {
-      Button("hoge", action: { delegate.myFunc() })
+      Button("hoge", action: { callback() })
         .navigationTitle("Second View")
     }
   }
