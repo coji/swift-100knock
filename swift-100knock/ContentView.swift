@@ -41,7 +41,7 @@ struct ContentView: View {
     NavigationItem(title: "024 リストをクリックしたらアラートを出す", destination: AnyView(View024())),
     NavigationItem(title: "025 遷移先から遷移元の関数を呼び出す", destination: AnyView(View025())),
     NavigationItem(title: "027 複数列の Picker を作成する", destination: AnyView(View027())),
-    NavigationItem(title: "028 全画面でSheetを表示する", destination: AnyView(View028())),
+    NavigationItem(title: "028 Sheetを表示する", destination: AnyView(View028())),
   ]
 
   var body: some View {

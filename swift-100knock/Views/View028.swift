@@ -11,7 +11,7 @@ struct View028: View {
   @State private var isPresented = false
   var body: some View {
     VStack {
-      Text("全画面でSheetを表示する")
+      Text("Sheetを表示する")
         .font(.title)
       Button(
         "Open",
@@ -19,7 +19,7 @@ struct View028: View {
           isPresented = true
         })
     }
-    .fullScreenCover(isPresented: $isPresented) {
+    .sheet(isPresented: $isPresented) {
       Text("Hello, Sheet!")
       Button(
         "Close",
