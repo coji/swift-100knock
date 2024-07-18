@@ -45,7 +45,8 @@ struct ContentView: View {
     NavigationItem(title: "029 全画面Sheetを表示する", destination: AnyView(View029())),
     NavigationItem(title: "030 NavigationBar を隠す", destination: AnyView(View030())),
     NavigationItem(title: "031 landscape でプレビューを表示する", destination: AnyView(View031())),
-    NavigationItem(title: "032 端末のシェイクで表示を変更する", destination: AnyView(View032()))
+    NavigationItem(title: "032 端末のシェイクで表示を変更する", destination: AnyView(View032())),
+    NavigationItem(title: "033 UICollectionViewのようにViewを並べる", destination: AnyView(View033())),
   ]
 
   var body: some View {
