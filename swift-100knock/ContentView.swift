@@ -49,6 +49,7 @@ struct ContentView: View {
     NavigationItem(title: "033 UICollectionViewのようにViewを並べる", destination: AnyView(View033())),
     NavigationItem(title: "034 TabViewで画像を切り替える", destination: AnyView(View034())),
     NavigationItem(title: "035 スワイプでは閉じられないモーダルを表示する", destination: AnyView(View035())),
+    NavigationItem(title: "036 ハーフモーダルを表示する", destination: AnyView(View036())),
   ]
 
   var body: some View {
