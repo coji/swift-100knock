@@ -10,12 +10,12 @@ import SwiftUI
 struct View040: View {
   private var markdown =
     "**Monalisa** is the **most** famous painting!\n[About Monalisa](https://example.com)"
-    var body: some View {
-        Text(LocalizedStringKey(markdown))
-        .tint(Color.red)
-    }
+  var body: some View {
+    Text(LocalizedStringKey(markdown))
+      .tint(Color.red)
+  }
 }
 
 #Preview {
-    View040()
+  View040()
 }
