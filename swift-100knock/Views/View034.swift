@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ImageView: View {
+private struct ImageView: View {
   var imageName: String
   var body: some View {
     Image(imageName)
