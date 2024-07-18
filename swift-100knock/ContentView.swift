@@ -47,6 +47,7 @@ struct ContentView: View {
     NavigationItem(title: "031 landscape でプレビューを表示する", destination: AnyView(View031())),
     NavigationItem(title: "032 端末のシェイクで表示を変更する", destination: AnyView(View032())),
     NavigationItem(title: "033 UICollectionViewのようにViewを並べる", destination: AnyView(View033())),
+    NavigationItem(title: "034 TabViewで画像を切り替える", destination: AnyView(View034())),
   ]
 
   var body: some View {
