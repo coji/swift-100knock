@@ -13,7 +13,7 @@ struct View041: View {
   private let githubApiRepository = GithubApiRepository()
 
   var body: some View {
-    NavigationStack(alignment:) {
+    NavigationStack {
       if repositories.isEmpty {
         ProgressView()
       }
