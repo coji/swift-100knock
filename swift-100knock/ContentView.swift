@@ -48,6 +48,7 @@ struct ContentView: View {
     NavigationItem(title: "032 端末のシェイクで表示を変更する", destination: AnyView(View032())),
     NavigationItem(title: "033 UICollectionViewのようにViewを並べる", destination: AnyView(View033())),
     NavigationItem(title: "034 TabViewで画像を切り替える", destination: AnyView(View034())),
+    NavigationItem(title: "035 スワイプでは閉じられないモーダルを表示する", destination: AnyView(View035())),
   ]
 
   var body: some View {
