@@ -44,6 +44,7 @@ struct ContentView: View {
     NavigationItem(title: "028 Sheetを表示する", destination: AnyView(View028())),
     NavigationItem(title: "029 全画面Sheetを表示する", destination: AnyView(View029())),
     NavigationItem(title: "030 NavigationBar を隠す", destination: AnyView(View030())),
+    NavigationItem(title: "031 landscape でプレビューを表示する", destination: AnyView(View031())),
   ]
 
   var body: some View {
