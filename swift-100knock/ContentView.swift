@@ -51,6 +51,7 @@ struct ContentView: View {
     NavigationItem(title: "035 スワイプでは閉じられないモーダルを表示する", destination: AnyView(View035())),
     NavigationItem(title: "036 ハーフモーダルを表示する", destination: AnyView(View036())),
     NavigationItem(title: "038 マークダウンを表示する", destination: AnyView(View038())),
+    NavigationItem(title: "039 変数に入れたマークダウンを表示する", destination: AnyView(View039())),
   ]
 
   var body: some View {
