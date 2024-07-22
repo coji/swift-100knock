@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E303BCC52C4E41DE002B1E4E /* ViewStunningEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E303BCC42C4E41DE002B1E4E /* ViewStunningEffect.swift */; };
 		E32347252C3ECE69002CFB02 /* View006.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32347242C3ECE69002CFB02 /* View006.swift */; };
 		E32347272C3FA237002CFB02 /* View007.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32347262C3FA237002CFB02 /* View007.swift */; };
 		E32CB3DC2C423B4C009099ED /* View017.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32CB3DB2C423B4C009099ED /* View017.swift */; };
@@ -74,6 +75,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E303BCC42C4E41DE002B1E4E /* ViewStunningEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStunningEffect.swift; sourceTree = "<group>"; };
 		E32347242C3ECE69002CFB02 /* View006.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View006.swift; sourceTree = "<group>"; };
 		E32347262C3FA237002CFB02 /* View007.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View007.swift; sourceTree = "<group>"; };
 		E32CB3DB2C423B4C009099ED /* View017.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View017.swift; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 				E36F38A32C48F172009FEFED /* View040.swift */,
 				E36F38A52C48F288009FEFED /* View041.swift */,
 				E36F38A72C48F82C009FEFED /* View043.swift */,
+				E303BCC42C4E41DE002B1E4E /* ViewStunningEffect.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				E36F38A82C48F82C009FEFED /* View043.swift in Sources */,
 				E32CB3DC2C423B4C009099ED /* View017.swift in Sources */,
 				E3FC0A042C42AD6B005AD217 /* View025.swift in Sources */,
+				E303BCC52C4E41DE002B1E4E /* ViewStunningEffect.swift in Sources */,
 				E3FC09FC2C4296F2005AD217 /* View021.swift in Sources */,
 				E350A3122C415FED00F034C6 /* View012.swift in Sources */,
 				E36F38962C48A74C009FEFED /* View032.swift in Sources */,

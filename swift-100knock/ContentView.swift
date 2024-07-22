@@ -54,6 +54,7 @@ struct ContentView: View {
     NavigationItem(title: "039 変数に入れたマークダウンを表示する", destination: AnyView(View039())),
     NavigationItem(title: "040 マークダウンのリンク色を赤にする", destination: AnyView(View040())),
     NavigationItem(title: "041 GitHubのリポジトリを取得して表示する", destination: AnyView(View041())),
+    NavigationItem(title: "番外 Stunning Effect", destination: AnyView(ViewStunningEffect()))
   ]
 
   var body: some View {

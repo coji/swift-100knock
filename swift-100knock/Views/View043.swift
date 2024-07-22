@@ -7,12 +7,15 @@
 
 import SwiftUI
 
+private func isMainThread(_ message: String = "") {
+  print("\(message) isMainThread: \(Thread.current.isMainThread)")
+}
+
 struct View043: View {
   @State private var repositories: [Repository] = []
   @State var page = 1
   @State var isFetching = false
   @State private var showingErrorAlert = false
-  private let githubApi = GithubApi()
 
   var body: some View {
     VStack {
@@ -24,7 +27,7 @@ struct View043: View {
         }
         .onAppear {
           if repositories.last == repository {
-            print("last")
+            isMainThread("onAppear:last")
             fetchRepositories()
           }
         }
@@ -39,6 +42,7 @@ struct View043: View {
       }
     }
     .onAppear {
+      isMainThread("onAppear view")
       fetchRepositories()
     }.alert("Error", isPresented: $showingErrorAlert) {
       Button("OK", action: {})
@@ -53,10 +57,12 @@ struct View043: View {
       return
     }
     isFetching = true
+    isMainThread("fetchRepositories")
 
     Task {
+      isMainThread("fetchRepositories:Task")
       do {
-        let resultRepositories = try await githubApi.searchRepos(page: page, perPage: 20)
+        let resultRepositories = try await searchRepos(page: page, perPage: 20)
         repositories += resultRepositories
         page += 1
         isFetching = false
@@ -66,18 +72,18 @@ struct View043: View {
       }
     }
   }
+
 }
 
-private struct GithubApi {
-  func searchRepos(page: Int, perPage: Int) async throws -> [Repository] {
-    let url = URL(
-      string:
-        "https://api.github.com/search/repositories?q=swift&sort=starts&page=\(page)&per_page=\(perPage)"
-    )!
-    let (data, _) = try await URLSession.shared.data(from: url)
-    let response = try JSONDecoder().decode(GithubSearchResult.self, from: data)
-    return response.items
-  }
+private func searchRepos(page: Int, perPage: Int) async throws -> [Repository] {
+  isMainThread("searchRepos")
+  let url = URL(
+    string:
+      "https://api.github.com/search/repositories?q=swift&sort=starts&page=\(page)&per_page=\(perPage)"
+  )!
+  let (data, _) = try await URLSession.shared.data(from: url)
+  let response = try JSONDecoder().decode(GithubSearchResult.self, from: data)
+  return response.items
 }
 
 private struct GithubSearchResult: Codable {
